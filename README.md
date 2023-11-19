@@ -6,6 +6,7 @@ The Bajo Board or accelerometer sensor system is an integrated sensor system con
 
 ## Deploy location
 This board was deployed in the pilot project Indonesia Cable Based Tsunameter in NTT, Indonesia in 2 locations. These sensors are used for the seismic imaging, so it receives the accelerometer raw data and not directly converted to earthquake magnitude. that is the ongoing research. 
+
 ![deploy](https://github.com/ihsanalhafiz/Bajo_Board/blob/master/Images/deployLocation.png)
 reference
 M. A. Purwoadi, Y. Anantasena, W. W. Pandoe, J. Widodo and A. E. Sakya, "Introduction to Indonesian Cable-based Subsea Tsunameter," 2023 IEEE Underwater Technology (UT), Tokyo, Japan, 2023, pp. 1-6, doi: 10.1109/UT49729.2023.10103368.
