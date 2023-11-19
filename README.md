@@ -96,10 +96,10 @@ No. | Command | Syntax | Response/Output | Function/Description
 26 | INCY? | AT+INCY? | "inclino y: (y-axis value in hexadecimal of 2 bytes)" | View the y-axis degree value of the ADIS16209 sensor
 27 | INCROT? | AT+INCROT? | "inclino rot: (rotation value in hexadecimal of 2 bytes)" | View the rotation degree value of the ADIS16209 sensor
 28 | INCSUPOUT? | AT+INCSUPOUT? | "inclino supp out: (rotation value in hexadecimal of 2 bytes)" | View the digital supply voltage measurement value on the VDD pin of the ADIS16209 sensor
-
-# License
-![license](https://github.com/ihsanalhafiz/Bajo_Board/blob/master/Images/oshw_facts.png)
 29 | INCRESET | AT+INCRESET | "inclino reset…." | Reset the ADIS16209 sensor settings
 30 | INCREV | AT+INCREV | "inclino revision: (revision status value in hexadecimal of 2 bytes)" | View the Revision status of the ADIS16209 sensor
 31 | INCMSC? | AT+INCMSC? | "inclino MSC_OUT: (MSC status value in hexadecimal of 2 bytes))" | View the data ready and control cell status of the ADIS 16209 sensor
 32 | REBOOT | AT+REBOOT | "Reboot..." | Perform a System Reset
+
+# License
+![license](https://github.com/ihsanalhafiz/Bajo_Board/blob/master/Images/oshw_facts.png)
