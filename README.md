@@ -2,6 +2,27 @@
 
 The Bajo Board or accelerometer sensor system is an integrated sensor system consisting of accelerometer, inclinometer and seismometer sensors. The accelerometer sensor is used to detect vibrations and carry out seismic imaging. The inclinometer sensor is used to detect tilt from monitoring stations. The seismometer sensor is used to calculate the SI value to detect early if there is an earthquake or tectonic activity and send a warning if an earthquake with MMI level 5 or above is detected. It requires voltage input with industry standart 24V, and will provide interface in RS232.
 
+# [Updated] Deploy location and results
+
+## Deploy location
+This board was deployed in the pilot project Indonesia Cable Based Tsunameter in NTT, Indonesia in 2 locations. These sensors are used for the seismic imaging, so it receives the accelerometer raw data and not directly converted to earthquake magnitude. that is the ongoing research. 
+
+![deploy](https://github.com/ihsanalhafiz/Bajo_Board/blob/master/Images/deployLocation.png)
+
+reference
+
+M. A. Purwoadi, Y. Anantasena, W. W. Pandoe, J. Widodo and A. E. Sakya, "Introduction to Indonesian Cable-based Subsea Tsunameter," 2023 IEEE Underwater Technology (UT), Tokyo, Japan, 2023, pp. 1-6, doi: 10.1109/UT49729.2023.10103368.
+
+## Results from earthquakes
+these results show accelerometer raw data from earthquakes.
+### First earthquake
+![firstEarthquake](https://github.com/ihsanalhafiz/Bajo_Board/blob/master/Images/15082023NTT.jpg)
+![responseFisrt](https://github.com/ihsanalhafiz/Bajo_Board/blob/master/Images/NTT.jpeg)
+
+### Second earthquake
+![secondEarthquake](https://github.com/ihsanalhafiz/Bajo_Board/blob/master/Images/28082023Balisea.jpg)
+![responseSecond](https://github.com/ihsanalhafiz/Bajo_Board/blob/master/Images/Balisea.jpeg)
+
 # Block Diagram System
 
 ![block diagram](https://github.com/ihsanalhafiz/Bajo_Board/blob/master/Images/diagramblok.png)
@@ -79,3 +100,6 @@ No. | Command | Syntax | Response/Output | Function/Description
 30 | INCREV | AT+INCREV | "inclino revision: (revision status value in hexadecimal of 2 bytes)" | View the Revision status of the ADIS16209 sensor
 31 | INCMSC? | AT+INCMSC? | "inclino MSC_OUT: (MSC status value in hexadecimal of 2 bytes))" | View the data ready and control cell status of the ADIS 16209 sensor
 32 | REBOOT | AT+REBOOT | "Reboot..." | Perform a System Reset
+
+# License
+![license](https://github.com/ihsanalhafiz/Bajo_Board/blob/master/Images/oshw_facts.png)
